@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getStyleType should have B1 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "fontSize": 16,
+  "lineHeight": 22,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have B2 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "fontSize": 12,
+  "lineHeight": 16,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have H1 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "fontSize": 30,
+  "margin": 3,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have H2 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "fontSize": 25,
+  "margin": 3,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have H3 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "fontSize": 22,
+  "margin": 3,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have H4 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "color": "#000000",
+  "fontSize": 20,
+  "lineHeight": 24,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have H5 styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "color": "#000000",
+  "fontSize": 14,
+  "lineHeight": 18,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have cta styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "color": "#6f0621",
+  "fontSize": 17,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have defailt styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "color": "#000000",
+  "fontSize": 17,
+  "includeFontPadding": true,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have error styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "color": "#7c4d5a",
+  "fontSize": 17,
+  "textAlign": "center",
+}
+`;
+
+exports[`getStyleType should have success styles 1`] = `
+Object {
+  "backgroundColor": "transparent",
+  "color": "#800020",
+  "fontSize": 17,
+  "textAlign": "center",
+}
+`;

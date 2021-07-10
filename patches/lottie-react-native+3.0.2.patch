@@ -1,0 +1,91 @@
+diff --git a/node_modules/lottie-react-native/.DS_Store b/node_modules/lottie-react-native/.DS_Store
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/lottie-react-native/src/.DS_Store b/node_modules/lottie-react-native/src/.DS_Store
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/lottie-react-native/src/android/src/main/java/com/airbnb/android/react/lottie/LottieAnimationViewManager.java b/node_modules/lottie-react-native/src/android/src/main/java/com/airbnb/android/react/lottie/LottieAnimationViewManager.java
+index 3eb803b..c35ac1f 100644
+--- a/node_modules/lottie-react-native/src/android/src/main/java/com/airbnb/android/react/lottie/LottieAnimationViewManager.java
++++ b/node_modules/lottie-react-native/src/android/src/main/java/com/airbnb/android/react/lottie/LottieAnimationViewManager.java
+@@ -5,7 +5,7 @@ import android.content.Context;
+ import android.content.ContextWrapper;
+ import android.os.Handler;
+ import android.os.Looper;
+-import android.support.v4.view.ViewCompat;
++import androidx.core.view.ViewCompat;
+ import android.widget.ImageView;
+ import android.view.View.OnAttachStateChangeListener;
+ import android.view.View;
+diff --git a/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.pbxproj b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.pbxproj
+index cbec9c2..4b6e244 100644
+--- a/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.pbxproj
++++ b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.pbxproj
+@@ -239,7 +239,7 @@
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_OBJC_BRIDGING_HEADER = LottieReactNative/Bridging.h;
+ 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 			};
+ 			name = Debug;
+ 		};
+@@ -254,7 +254,7 @@
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_OBJC_BRIDGING_HEADER = LottieReactNative/Bridging.h;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 			};
+ 			name = Release;
+ 		};
+diff --git a/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/contents.xcworkspacedata b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+new file mode 100644
+index 0000000..919434a
+--- /dev/null
++++ b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<Workspace
++   version = "1.0">
++   <FileRef
++      location = "self:">
++   </FileRef>
++</Workspace>
+diff --git a/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+new file mode 100644
+index 0000000..18d9810
+--- /dev/null
++++ b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>IDEDidComputeMac32BitWarning</key>
++	<true/>
++</dict>
++</plist>
+diff --git a/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/xcuserdata/eweibman.xcuserdatad/UserInterfaceState.xcuserstate b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/project.xcworkspace/xcuserdata/eweibman.xcuserdatad/UserInterfaceState.xcuserstate
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/xcuserdata/eweibman.xcuserdatad/xcschemes/xcschememanagement.plist b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/xcuserdata/eweibman.xcuserdatad/xcschemes/xcschememanagement.plist
+new file mode 100644
+index 0000000..42eee73
+--- /dev/null
++++ b/node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj/xcuserdata/eweibman.xcuserdatad/xcschemes/xcschememanagement.plist
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>SchemeUserState</key>
++	<dict>
++		<key>LottieReactNative.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>0</integer>
++		</dict>
++	</dict>
++</dict>
++</plist>

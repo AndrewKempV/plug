@@ -1,0 +1,138 @@
+diff --git a/node_modules/lottie-ios/.DS_Store b/node_modules/lottie-ios/.DS_Store
+new file mode 100644
+index 0000000..f3fbfb2
+Binary files /dev/null and b/node_modules/lottie-ios/.DS_Store differ
+diff --git a/node_modules/lottie-ios/Lottie.xcodeproj/project.pbxproj b/node_modules/lottie-ios/Lottie.xcodeproj/project.pbxproj
+index d7a0f11..cac7758 100644
+--- a/node_modules/lottie-ios/Lottie.xcodeproj/project.pbxproj
++++ b/node_modules/lottie-ios/Lottie.xcodeproj/project.pbxproj
+@@ -2334,7 +2334,7 @@
+ 				PRODUCT_NAME = Lottie;
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+ 			};
+ 			name = Debug;
+@@ -2362,7 +2362,7 @@
+ 				PRODUCT_NAME = Lottie;
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+ 			};
+ 			name = Release;
+@@ -2390,7 +2390,7 @@
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SDKROOT = appletvos;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 				TARGETED_DEVICE_FAMILY = 3;
+ 				TVOS_DEPLOYMENT_TARGET = 9.0;
+ 			};
+@@ -2419,7 +2419,7 @@
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SDKROOT = appletvos;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 				TARGETED_DEVICE_FAMILY = 3;
+ 				TVOS_DEPLOYMENT_TARGET = 9.0;
+ 			};
+@@ -2451,7 +2451,7 @@
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SDKROOT = macosx;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 			};
+ 			name = Debug;
+ 		};
+@@ -2481,7 +2481,7 @@
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SDKROOT = macosx;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 			};
+ 			name = Release;
+ 		};
+@@ -2494,7 +2494,7 @@
+ 				OTHER_LDFLAGS = "-ObjC";
+ 				PRODUCT_NAME = Lottie;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+ 			};
+ 			name = Debug;
+@@ -2507,7 +2507,7 @@
+ 				OTHER_LDFLAGS = "-ObjC";
+ 				PRODUCT_NAME = Lottie;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+ 			};
+ 			name = Release;
+@@ -2524,7 +2524,7 @@
+ 				PRODUCT_NAME = Lottie;
+ 				SDKROOT = macosx;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 			};
+ 			name = Debug;
+ 		};
+@@ -2539,7 +2539,7 @@
+ 				PRODUCT_NAME = Lottie;
+ 				SDKROOT = macosx;
+ 				SKIP_INSTALL = YES;
+-				SWIFT_VERSION = 5.0;
++				SWIFT_VERSION = 4.2;
+ 			};
+ 			name = Release;
+ 		};
+diff --git a/node_modules/lottie-ios/Lottie.xcodeproj/xcuserdata/eweibman.xcuserdatad/xcschemes/xcschememanagement.plist b/node_modules/lottie-ios/Lottie.xcodeproj/xcuserdata/eweibman.xcuserdatad/xcschemes/xcschememanagement.plist
+new file mode 100644
+index 0000000..7962408
+--- /dev/null
++++ b/node_modules/lottie-ios/Lottie.xcodeproj/xcuserdata/eweibman.xcuserdatad/xcschemes/xcschememanagement.plist
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>SchemeUserState</key>
++	<dict>
++		<key>LottieLibraryIOS.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>69</integer>
++		</dict>
++		<key>LottieLibraryMacOS.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>70</integer>
++		</dict>
++		<key>Lottie_iOS.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>5</integer>
++		</dict>
++		<key>Lottie_macOS.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>6</integer>
++		</dict>
++		<key>Lottie_tvOS.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>7</integer>
++		</dict>
++	</dict>
++</dict>
++</plist>

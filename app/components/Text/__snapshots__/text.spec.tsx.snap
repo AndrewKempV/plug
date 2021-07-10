@@ -1,0 +1,631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render B1 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "fontSize": 16,
+        "lineHeight": 22,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render B2 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "fontSize": 12,
+        "lineHeight": 16,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render H1 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "fontSize": 30,
+        "margin": 3,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render H2 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "fontSize": 25,
+        "margin": 3,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render H3 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "fontSize": 22,
+        "margin": 3,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render H4 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "fontSize": 20,
+        "lineHeight": 24,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render H5 text 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "fontSize": 14,
+        "lineHeight": 18,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render cta text 1`] = `
+<Text
+  allowFontScaling={false}
+  numberOfLines={5}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "color": "#6f0621",
+        "fontSize": 17,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      Object {
+        "color": "#6f0621",
+      },
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render error text 1`] = `
+<Text
+  allowFontScaling={false}
+  numberOfLines={5}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "color": "#7c4d5a",
+        "fontSize": 17,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      Object {
+        "color": "#6f0621",
+      },
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render header text 1`] = `
+<Text
+  allowFontScaling={false}
+  numberOfLines={5}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "fontSize": 22,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      Object {
+        "color": "#6f0621",
+      },
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render success text 1`] = `
+<Text
+  allowFontScaling={false}
+  numberOfLines={5}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "color": "#800020",
+        "fontSize": 17,
+        "textAlign": "center",
+      },
+      Object {
+        "color": "#000000",
+        "opacity": 1,
+      },
+      Object {},
+      Object {
+        "color": "#6f0621",
+      },
+    ]
+  }
+>
+  Some text here
+</Text>
+`;
+
+exports[`Text should render text with all attributes 1`] = `
+<View>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 30,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H1 Example text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 25,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H2 Example text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 Example text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#000000",
+          "fontSize": 20,
+          "lineHeight": 24,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H4 Example text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#000000",
+          "fontSize": 14,
+          "lineHeight": 18,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H5 Example text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 16,
+          "lineHeight": 22,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    B1 Example text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 12,
+          "lineHeight": 16,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    B2 Example text
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "grey",
+        "height": 2,
+        "margin": 15,
+      }
+    }
+  />
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 primary Example
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#2c2d2e",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 secondary Example
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#8a8c8e",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 tertiary Example
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#0e59a5",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 link Example
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "grey",
+        "height": 3,
+        "margin": 15,
+      }
+    }
+  />
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+     H3 light text 
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 light text
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 1,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 light text
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "grey",
+        "height": 3,
+        "margin": 15,
+      }
+    }
+  />
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "fontSize": 22,
+          "margin": 3,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+          "opacity": 0.7,
+        },
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    H3 disabled text
+  </Text>
+</View>
+`;

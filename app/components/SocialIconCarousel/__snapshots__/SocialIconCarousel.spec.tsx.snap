@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialIconCarousel seperator renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 20,
+      "marginLeft": 60,
+      "marginRight": 20,
+      "marginTop": 20,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+      ]
+    }
+    contentOffset={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "source": Object {
+            "testUri": "../../../app/assets/images/google_logo.png",
+          },
+          "type": "google",
+        },
+        Object {
+          "source": Object {
+            "testUri": "../../../app/assets/images/fb_logo.png",
+          },
+          "type": "facebook",
+        },
+        Object {
+          "source": Object {
+            "testUri": "../../../app/assets/images/twitter_logo.png",
+          },
+          "type": "twitter",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "currentIndex": 0,
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 23.1,
+                "height": 46.2,
+                "marginHorizontal": 20,
+                "width": 46.2,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../app/assets/images/google_logo.png",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 23.1,
+                  "height": 46.2,
+                  "width": 46.2,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 23.1,
+                "height": 46.2,
+                "marginHorizontal": 20,
+                "width": 46.2,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../app/assets/images/fb_logo.png",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 23.1,
+                  "height": 46.2,
+                  "width": 46.2,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "borderRadius": 23.1,
+                "height": 46.2,
+                "marginHorizontal": 20,
+                "width": 46.2,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../app/assets/images/twitter_logo.png",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 23.1,
+                  "height": 46.2,
+                  "width": 46.2,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 12,
+          "marginRight": 45,
+          "marginTop": 10,
+          "width": 12,
+        },
+        Object {
+          "display": "flex",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/assets/images/icn_back.png",
+        }
+      }
+      style={
+        Object {
+          "height": 12,
+          "marginRight": 45,
+          "marginTop": 10,
+          "width": 12,
+        }
+      }
+    />
+  </View>
+</View>
+`;

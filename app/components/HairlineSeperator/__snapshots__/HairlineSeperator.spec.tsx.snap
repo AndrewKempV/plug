@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hairline seperator renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "marginHorizontal": 70,
+      },
+      Object {
+        "marginBottom": 60,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#4e5052",
+        "height": 1,
+        "marginTop": 10,
+        "width": 96,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#4e5052",
+        "fontFamily": "HelveticaNeue",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "paddingBottom": 5,
+        "paddingHorizontal": 5,
+      }
+    }
+  >
+    or
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#4e5052",
+        "height": 1,
+        "marginTop": 10,
+        "width": 96,
+      }
+    }
+  />
+</View>
+`;
